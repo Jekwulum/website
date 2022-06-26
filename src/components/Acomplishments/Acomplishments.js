@@ -16,7 +16,7 @@ const Acomplishments = () => (
     <Boxes>
       {data.map((card, index) => (
         <Box key={index}>
-          <Img style={{ height: '65%', width: '100%' }} src={card.image} />
+          <Img style={{ height: '70%', width: '100%' }} src={card.image} />
           <BoxText>{card.text}</BoxText>
         </Box>
       ))}
