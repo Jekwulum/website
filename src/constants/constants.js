@@ -1,11 +1,12 @@
 export const projects = [
   {
     title: 'School management application',
-    description: "Using React, Node.js, Express & MongoDB I built a school management application for easy & efficient management of staff & student data in a school",
+    description: "Using React, Node.js, Express, PostgreSQL & MongoDB I built a school management application for easy & efficient management of staff & student data in a school. \
+     Find the swagger documentation here: https://j-myschool-api.herokuapp.com/",
     image: '/images/sch_mgt.jpg',
-    tags: ['Mongo', 'Express', 'React', 'Node'],
+    tags: ['Mongo', 'Express', 'React', 'Node', 'PostgreSQL'],
     source: 'https://github.com/Jekwulum/school-mgt-backend',
-    visit: 'https://google.com',
+    visit: 'https://myschool-jekwulum.vercel.app/',
     id: 0,
   },
   {
